@@ -1,0 +1,91 @@
+{
+  "channel": "AI 小课堂",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "+0%",
+  "lines": [
+    {
+      "text": "最近AI圈都在聊一个词：Skill。",
+      "hl": [
+        "Skill"
+      ],
+      "expr": "surprised",
+      "scene": "hook",
+      "data": {
+        "sub": "最近 AI 圈都在聊一个词",
+        "big": "Skill"
+      }
+    },
+    {
+      "text": "其实很简单，Skill就是给AI的一本工作手册。",
+      "hl": [
+        "工作手册"
+      ],
+      "expr": "normal",
+      "scene": "define",
+      "chapter": [
+        "一",
+        "是什么"
+      ],
+      "data": {
+        "term": "Skill",
+        "cover": "SKILL",
+        "prefix": "AI 的",
+        "def": "工作手册"
+      }
+    },
+    {
+      "text": "里面写清楚三件事：做什么，怎么做，做完怎么检查。",
+      "hl": [
+        "做什么",
+        "怎么做",
+        "怎么检查"
+      ],
+      "expr": "thinking",
+      "scene": "list",
+      "chapter": [
+        "二",
+        "写什么"
+      ],
+      "data": {
+        "title": "手册里写清楚 3 件事",
+        "items": [
+          {
+            "label": "做什么",
+            "icon": "target"
+          },
+          {
+            "label": "怎么做",
+            "icon": "steps"
+          },
+          {
+            "label": "怎么检查",
+            "icon": "check"
+          }
+        ]
+      }
+    },
+    {
+      "text": "有了它，AI不用每次从零摸索，次次都做得一样好。",
+      "hl": [
+        "次次都做得一样好"
+      ],
+      "expr": "happy",
+      "scene": "compare",
+      "chapter": [
+        "三",
+        "有什么用"
+      ],
+      "data": {
+        "left": {
+          "title": "没有 Skill",
+          "note": "每次从零摸索"
+        },
+        "right": {
+          "title": "有 Skill",
+          "note": "次次都一样好"
+        },
+        "key": "次次都做得一样好"
+      }
+    }
+  ]
+}

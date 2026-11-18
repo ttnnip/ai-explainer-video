@@ -1,0 +1,17 @@
+# 安装生成的依赖
+node_modules/
+.venv/
+package-lock.json
+
+# 运行中间文件
+程序文件/template/build/
+程序文件/avatar/output/
+AI音色列表.txt
+
+# 用户自己的素材和成片
+成片/*.mp4
+我的录音/*.m4a
+我的录音/*.mp3
+我的录音/*.wav
+我的录音/*.aac
+我的录音/*.flac

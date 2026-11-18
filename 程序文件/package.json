@@ -1,0 +1,14 @@
+{
+  "name": "ai-explainer-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "用代码自动生成带虚拟形象的讲解视频",
+  "scripts": {
+    "avatar": "node avatar/export.js",
+    "stills": "node template/render.js 2,6,10,14",
+    "render": "node template/render.js"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "2.6.2"
+  }
+}
